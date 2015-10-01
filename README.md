@@ -4,7 +4,7 @@ Functional Programming for 2nd year CS students at FMI / Sofia University.
 
 ## Intro materials
 
-* [DrRacket]() - this is going to be the IDE for the course
+* [DrRacket](http://download.racket-lang.org/) - this is going to be the IDE for the course
 * [The Racket Guide](http://docs.racket-lang.org/guide/index.html) - everything you need to get you started.
 
 ## REPL and XREPL
