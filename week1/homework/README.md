@@ -9,7 +9,7 @@ Implement a racket function that finds the product of digits of a number.
   ...)
 ```
 
-## Circle?
+## Circle
 
 Implement a racket predicate called `circle?` that checks if a point lies within a circle.
 
@@ -39,11 +39,32 @@ Implement a Racket function that calculates the area of a given triangle using [
   ...)
 ```
 
-## Prime number?
+## Prime number
 
 Implement a Racket predicate that cheks if a given number is prime.
 
 ```racket
 (define (prime? n)
   ...)
+```
+
+## Cube sums
+
+Implement a Racket predicate called `cube-sums?` that takes one integer `n` and returns `#t` if there are any to integers `a` and `b` which has the following property:
+
+```
+n = a^3 + b^3
+```
+
+```racket
+(define (cube-sums? n)
+  ...)
+```
+
+For example, lets see few numbers with cube sums:
+
+```
+2 = 1^3 + 1^3
+1729 = 9^3 + 10^3
+87539319 = 167^3 + 436^3
 ```
