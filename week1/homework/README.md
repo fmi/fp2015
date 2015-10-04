@@ -1,5 +1,7 @@
 # Homework
 
+Implement each problem in a separate `.rkt` file.
+
 ## Product of digits
 
 Implement a racket function that finds the product of digits of a number.
