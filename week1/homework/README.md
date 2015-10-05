@@ -84,7 +84,7 @@ Implement a Racket predicate that cheks if a given number is prime.
 
 ## Cube sums
 
-Implement a Racket predicate called `cube-sums?` that takes one integer `n` and returns `#t` if there are any to integers `a` and `b` which has the following property:
+Implement a Racket predicate called `cube-sums?` that takes one integer `n` and returns `#t` if there are any two integers `a` and `b` which has the following property:
 
 ```
 n = a^3 + b^3
