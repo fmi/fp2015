@@ -14,7 +14,7 @@ A2 = b
 An = An-1 + An-2
 ```
 
-For example, if `a = 1` and `b = 1`, we are going to get the fibonacci series. If `a = 2` and `b = 1`, we are going to get the lucas series.
+For example, if `a = 1` and `b = 1`, we are going to get the Fibonacci series. If `a = 2` and `b = 1`, we are going to get the Lucas series.
 
 
 Example usage in xREPL:
@@ -30,14 +30,14 @@ Example usage in xREPL:
 
 ### `(lucas n)` and `(fibonacci n)`
 
-Using the `series` function, implement two functions:
+Using the `series` function, implement the following functions:
 
 * `(lucas n)` which returns the nth member of the Lucas series.
 * `(fibonacci n)` which returns the nth member of the Fibonacci series.
 
 ### `(summed-member n)`
 
-Next, implement the `(summed-member n)` function which returns the sum of the nth member of lucas and nth member of fibonacci series.
+Next, implement the `(summed-member n)` function which returns the sum of the nth member of Lucas and nth member of Fibonacci series.
 
 This means the following equation:
 
@@ -86,7 +86,7 @@ A1 = lucas(1) - fib(1)
 AN = lucas(n) - fib(n)
 ```
 
-The nth member of the desired series is the difference between the nth member of the lucas series adn the nth member of fibonacci.
+The nth member of the desired series is the difference between the nth member of the Lucas series adn the nth member of Fibonacci.
 
 Examples:
 
