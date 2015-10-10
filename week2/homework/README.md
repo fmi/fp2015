@@ -1,5 +1,7 @@
 # Homework 2
 
+**Use tail call recursion whenever is applicable!**
+
 ## Series
 
 In a file called `series.rkt` implement the following functions:
