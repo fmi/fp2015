@@ -4,7 +4,7 @@ Homework on higher order functions.
 
 ## Highest order
 
-Implement a function `f` that takes 3 arguments - a predicate `p` function and two more functions - `g` and `h`. All function arguments are function with one argument.
+Implement a function `f` that takes 3 arguments - a predicate `p` and two more functions - `g` and `h`. All function arguments are functions with one argument.
 
 `f` should return a function with a single argument.
 
