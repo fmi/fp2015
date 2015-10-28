@@ -35,7 +35,7 @@ Here is how you can create a pair:
 -> (cons 1 2)
 '(1 . 2)
 -> (define a (cons 1 2))
-a
+-> a
 '(1 . 2)
 ```
 
