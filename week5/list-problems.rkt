@@ -80,7 +80,7 @@
 ; -> (take-while even? (list 2 4 5 7 8 3 2))
 ; '(2 4)
 ; -> (take-while (lambda (x) (> x 3)) (list 1 1 1 1 1))
-; '(1 1 1 1 1)
+; '()
 (define (take-while p items)
   (void))
 
@@ -90,7 +90,7 @@
 ; -> (drop-while even? (list 2 4 5 7 8 3 2))
 ; '(5 7 8 3 2)
 ; -> (drop-while (lambda (x) (> x 3)) (list 1 1 1 1 1))
-; '()
+; '(1 1 1 1 1)
 (define (drop-while p items)
   (void))
 
