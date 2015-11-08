@@ -17,7 +17,7 @@ Implement the following Racket function, that groups consecutive equal elements 
 
 ## Run-length encoding and decoding
 
-Implement the simple run-length encoding algorithm for string compresion.
+Implement the simple [run-length encoding algorithm for string compresion](https://en.wikipedia.org/wiki/Run-length_encoding)
 
 The algorithm groups consecutive equal chars in one string into the format `{N}{C}` where `{N}` is the number of consequtive repeats of the char `{C}`.
 
