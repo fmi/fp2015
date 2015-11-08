@@ -7,6 +7,12 @@ Implement the following Racket function, that groups consecutive equal elements 
 ```racket
 -> (group (list 1 1 1 2 3 1 2 2))
 '((1 1 1) (2) (3) (1) (2 2))
+-> (group (list 1 2 3 4 5 6))
+'((1) (2) (3) (4) (5) (6))
+-> (group (list 1 1 1 1 1 1))
+'((1 1 1 1 1 1))
+-> (group (list))
+'()
 ```
 
 ## Run-length encoding and decoding
