@@ -57,7 +57,7 @@ Example:
       (make-leaf 6))
     (make-leaf 3)))
 
-(tree-map add1 t)
+-> (tree-map add1 t)
 
 '(2
     (3
