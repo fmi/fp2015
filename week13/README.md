@@ -65,7 +65,7 @@ data Vector2D = Vector2D Double Double
 
 Да се напишат следните функции:
 
-* `addVectоrs :: Vector2D -> Vector2D -> Vector2D`
+* `addVectors :: Vector2D -> Vector2D -> Vector2D`
 * `vectorLength :: Vector2D -> Double` - дължина на вектор
 
 ### Библиотека
